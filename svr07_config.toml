@@ -1,0 +1,7 @@
+project_name = "svr07"
+file_path = "assets/default.xex"
+out_directory_path = "generated"
+
+includes = [
+  "config/functions.toml",
+]
