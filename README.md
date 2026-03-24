@@ -15,3 +15,7 @@ you should have a directory like this:
     ├── svr07.exe
     └── /assets/
         └── [wwe svr07 files]
+
+
+more info:
+https://youtu.be/QRDNn8kdJt0?si=Ndtb1VAMBmYbvm86
