@@ -1,0 +1,6 @@
+[functions]
+0x824625F0 = { name = "svr07_state_824625F0", size = 0xF4 }
+0x82462A00 = { name = "svr07_state_82462A00", size = 0x6C }
+0x825C50A8 = { name = "svr07_thunk_825C50A8", size = 0x8 }
+0x825D0840 = { name = "svr07_refinc_825D0840", size = 0x14 }
+0x825E7B78 = { name = "svr07_vtbl_825E7B78", size = 0x24 }
