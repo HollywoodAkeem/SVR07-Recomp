@@ -1,0 +1,15 @@
+{
+  "host_identifier": "local",
+  "predefines": {
+    "cpp_compiler": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/Llvm/x64/bin/clang++.exe",
+    "cpp_compiler_defines": {},
+    "cpp_user_defines": {},
+    "cpp_user_undefines": [],
+    "c_compiler": "g++",
+    "c_compiler_defines": {},
+    "c_user_defines": {},
+    "c_user_undefines": []
+  },
+  "target_sizes": {},
+  "supports_x86_64": true
+}

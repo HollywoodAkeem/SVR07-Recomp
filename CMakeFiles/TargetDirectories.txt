@@ -1,0 +1,4 @@
+C:/Users/joelu/source/repos/svr07/CMakeFiles/svr07_codegen.dir
+C:/Users/joelu/source/repos/svr07/CMakeFiles/svr07.dir
+C:/Users/joelu/source/repos/svr07/CMakeFiles/edit_cache.dir
+C:/Users/joelu/source/repos/svr07/CMakeFiles/rebuild_cache.dir

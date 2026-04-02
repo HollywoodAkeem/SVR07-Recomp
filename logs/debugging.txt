@@ -1,0 +1,46 @@
+[error] [sys] [t20212] AllocRange entry: top_down=true max_base=85758 low=83712 high=85760 stride=1 size=0x3000
+[error] [sys] [t20212] phys AllocRange: addr=0x14e9b000 size=0x3000 pages=85659-85661 alloc_type=0x3
+[error] [sys] [t20212] AllocRange entry: top_down=true max_base=85758 low=83712 high=85760 stride=1 size=0x3000
+[error] [sys] [t20212] phys AllocRange: addr=0x14e9b000 size=0x3000 pages=85659-85661 alloc_type=0x3
+[info] [fs] [t31220] VFS: 'GAME:\MOVIES' -> '\Device\Harddisk0\Partition1\MOVIES' -> device '\Device\Harddisk0\Partition1' -> host '\Device\Harddisk0\Partition1\movies'
+[info] [fs] [t18688] VFS: 'GAME:\MOVIES' -> '\Device\Harddisk0\Partition1\MOVIES' -> device '\Device\Harddisk0\Partition1' -> host '\Device\Harddisk0\Partition1\movies'
+[error] [sys] [t21868] AllocRange entry: top_down=true max_base=130009 low=92416 high=130048 stride=1 size=0x28000
+[error] [sys] [t21868] phys AllocRange: addr=0x1f3c1000 size=0x28000 pages=127937-127976 alloc_type=0x3
+[error] [sys] [t21868] AllocRange entry: top_down=true max_base=130039 low=92416 high=130048 stride=1 size=0xa000
+[error] [sys] [t21868] phys AllocRange: addr=0x1f3b7000 size=0xa000 pages=127927-127936 alloc_type=0x3
+[error] [sys] [t21868] AllocRange entry: top_down=true max_base=130039 low=92416 high=130048 stride=1 size=0xa000
+[error] [sys] [t21868] phys AllocRange: addr=0x1f3ad000 size=0xa000 pages=127917-127926 alloc_type=0x3
+[error] [sys] [t21868] AllocRange entry: top_down=true max_base=130009 low=92416 high=130048 stride=1 size=0x28000
+[error] [sys] [t21868] phys AllocRange: addr=0x1f385000 size=0x28000 pages=127877-127916 alloc_type=0x3
+[error] [sys] [t21868] AllocRange entry: top_down=true max_base=130039 low=92416 high=130048 stride=1 size=0xa000
+[error] [sys] [t21868] phys AllocRange: addr=0x1f37b000 size=0xa000 pages=127867-127876 alloc_type=0x3
+[error] [sys] [t21868] AllocRange entry: top_down=true max_base=130039 low=92416 high=130048 stride=1 size=0xa000
+[error] [sys] [t21868] phys AllocRange: addr=0x1f371000 size=0xa000 pages=127857-127866 alloc_type=0x3
+[error] [sys] [t20212] AllocRange entry: top_down=true max_base=85758 low=83712 high=85760 stride=1 size=0x3000
+[error] [sys] [t20212] phys AllocRange: addr=0x14e9b000 size=0x3000 pages=85659-85661 alloc_type=0x3
+[error] [sys] [t20212] AllocRange entry: top_down=true max_base=85758 low=83712 high=85760 stride=1 size=0x3000
+[error] [sys] [t20212] phys AllocRange: addr=0x14e9b000 size=0x3000 pages=85659-85661 alloc_type=0x3
+[error] [sys] [t20212] AllocRange entry: top_down=true max_base=85758 low=83712 high=85760 stride=1 size=0x3000
+[error] [sys] [t20212] phys AllocRange: addr=0x14e9b000 size=0x3000 pages=85659-85661 alloc_type=0x3
+
+
+svr07_recomp.30.cpp
+
+	// bctrl 
+	ctx.lr = 0x8246BCB4;
+	PPC_CALL_INDIRECT_FUNC(ctx.ctr.u32);
+loc_8246BCB4:
+	// addi r1,r1,96
+	--->ctx.r1.s64 = ctx.r1.s64 + 96;
+	// lwz r12,-8(r1)
+	ctx.r12.u64 = PPC_LOAD_U32(ctx.r1.u32 + -8);
+	// mtlr r12
+	ctx.lr = ctx.r12.u64;
+	// ld r31,-16(r1)
+	ctx.r31.u64 = PPC_LOAD_U64(ctx.r1.u32 + -16);
+	// blr 
+	return;
+
+
+
+Unhandled exception at 0x0000000000000000 in svr07.exe: 0xC0000005: Access violation executing location 0x0000000000000000.
