@@ -1,5 +1,0 @@
-	// addi r1,r1,96
-	ctx.r1.s64 = ctx.r1.s64 + 96;
-00007FF74DECD128  mov         rax,qword ptr [rsi+18h]  
-00007FF74DECD12C  add         rax,60h  
-00007FF74DECD130  mov         qword ptr [rsi+18h],rax  
