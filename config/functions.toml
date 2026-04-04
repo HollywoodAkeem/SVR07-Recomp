@@ -4,3 +4,5 @@
 0x825C50A8 = { name = "svr07_thunk_825C50A8", size = 0x8 }
 0x825D0840 = { name = "svr07_refinc_825D0840", size = 0x14 }
 0x825E7B78 = { name = "svr07_vtbl_825E7B78", size = 0x24 }
+0x82471250 = { name = "svr07_vtbl_82471250", size = 0x18 }
+0x825C1380 = { name = "svr07_vtbl_825C1380", size = 0x18 }

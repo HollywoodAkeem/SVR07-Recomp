@@ -3,3 +3,4 @@ tut.txt
 .cmake/
 .git/
 .vs/
+logs/
