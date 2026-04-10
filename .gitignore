@@ -4,3 +4,5 @@ tut.txt
 .git/
 .vs/
 logs/
+generated/
+decode_func.py

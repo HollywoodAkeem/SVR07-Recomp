@@ -23,7 +23,7 @@ class Svr07App : public rex::ReXApp {
 
     // Point UPDATE: to a separate folder containing the title update files.
     paths.update_data_root =
-        std::filesystem::path(R"(C:\Users\joelu\source\repos\svr07\out\build\win-amd64-debug\assets\1_update)");
+        std::filesystem::path(R"(\assets\1_update)");
 
     //paths.cahce_data_root =
       //std::filesystem::path(R"(C:\Users\joelu\source\repos\svr07\out\build\win-amd64-debug\assets\1_cache)");
